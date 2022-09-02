@@ -1,0 +1,22 @@
+<div id="popup" class="popup">
+	<div class="popup__content">
+		<button data-exit class="popup__exit" type="button">
+			<img src="@img/exit.svg" alt="Exit">
+		</button>
+		<form action="#" class="form">
+			<div class="form__item">
+				<label for="" class="form__label">Имя</label>
+				<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+			</div>
+			<div class="form__item">
+				<label for="" class="form__label">Номер телефона</label>
+				<input data-req autocomplete="off" type="tel" name="form[]" data-error="Введите номер телефона" placeholder="" class="form__input _phone">
+			</div>
+			<div class="form__item">
+				<label for="" class="form__label">E-mail</label>
+				<input data-req autocomplete="off" type="text" name="form[]" data-error="Введите E-mail" placeholder="" class="form__input _email">
+			</div>
+			<button class="form__button button" type="submit">Отправить</button>
+		</form>
+	</div>
+</div>
