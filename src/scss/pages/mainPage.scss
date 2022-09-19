@@ -571,7 +571,7 @@
     &::after {
       content: '';
       position: absolute;
-      z-index: 1;
+      z-index: -1;
       width: 100000px;
       @include adaptiveValue('height', 154, 110, 1);
       left: -4000px;
@@ -602,7 +602,7 @@
     padding-right: 19px;
     height: 305px;
     position: relative;
-    z-index: 5;
+    z-index: 1000000000000000000;
     transition: all 0.5s ease 0s;
 
     @media (max-width:$mobile){
@@ -621,7 +621,7 @@
 
   &__icon {
     position: relative;
-    z-index: 5;
+    z-index: 1000000000000000000;
     @include adaptiveValue("width", 182, 165, 1);
     @include adaptiveValue("height", 182, 165, 1);
     border-radius: 50%;
@@ -644,7 +644,7 @@
 
   &__title {
     position: relative;
-    z-index: 5;
+    z-index: 1000000000000000000;
     flex: 1 1 auto;
     transition: color 0.3s ease 0s;
     &:not(:last-child) {
@@ -662,7 +662,7 @@
 
   &__button {
     position: relative;
-    z-index: 5;
+    z-index: 1000000000000000000;
     min-width: rem(206);
     padding-top: rem(22);    
     padding-bottom: rem(22);

@@ -14,7 +14,7 @@
   "author": "LeonidHr",
   "license": "ISC",
   "browserslist": [
-    "> 1%"
+    "> 0.5%"
   ],
   "devDependencies": {
     "@babel/cli": "^7.18.10",

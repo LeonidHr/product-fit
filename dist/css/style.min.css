@@ -1378,7 +1378,7 @@ body {
 .slider-services__slide::after {
   content: "";
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   width: 100000px;
   height: 154px;
   left: -4000px;
@@ -1416,7 +1416,7 @@ body {
   padding-right: 19px;
   height: 305px;
   position: relative;
-  z-index: 5;
+  z-index: 1000000000000000000;
   transition: all 0.5s ease 0s;
 }
 @media (max-width: 47.99875em) {
@@ -1432,7 +1432,7 @@ body {
 }
 .slider-services__icon {
   position: relative;
-  z-index: 5;
+  z-index: 1000000000000000000;
   width: 182px;
   height: 182px;
   border-radius: 50%;
@@ -1461,7 +1461,7 @@ body {
 }
 .slider-services__title {
   position: relative;
-  z-index: 5;
+  z-index: 1000000000000000000;
   flex: 1 1 auto;
   transition: color 0.3s ease 0s;
 }
@@ -1475,7 +1475,7 @@ body {
 }
 .slider-services__button {
   position: relative;
-  z-index: 5;
+  z-index: 1000000000000000000;
   min-width: 12.875rem;
   padding-top: 1.375rem;
   padding-bottom: 1.375rem;
