@@ -432,6 +432,13 @@
     // .slider-developments__title
   
     &__title {
+      transition: color 0.3s ease 0s;
+
+      @media (any-hover: hover) {
+        &:hover {
+          color: $btnsColor;
+        }
+      }
     }
   
     // .slider-developments__img

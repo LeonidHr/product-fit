@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220911154018">
+  <link rel="stylesheet" href="css/style.min.css">
   <title>Main Page</title>
 </head>
   <body class="body-main">
@@ -13,7 +13,7 @@
       <header class="header">
   <div class="header__container _container">
     <div class="header__body">
-      <a class="header__logo logo" href="#">
+      <a class="header__logo logo" href="index.html">
         <img src="img/logotypes/main-logo.svg" alt="Logo">
       </a>
       <div class="header__actions actions-header">
@@ -29,7 +29,7 @@
           </li>
         </ul>
       </div>
-      <a data-popup class="header__button button" href="#">НАЧАТЬ ПРОЕКТ</a>
+      <button data-popup class="header__button button">НАЧАТЬ ПРОЕКТ</button>
     </div>
   </div>
 </header>   
@@ -47,10 +47,10 @@
                     ИТ-команду лучшими разработчиками на рынке
                   </p>
                 </div>
-                <a data-popup class="mainscreen__button button" href="#">НАЧАТЬ НОВЫЙ ПРОЕКТ</a>
+                <button data-popup class="mainscreen__button button">НАЧАТЬ НОВЫЙ ПРОЕКТ</button>
               </div>
               <div class="mainscreen__img _ibg">
-                <picture><source srcset="img/big-images/3.webp" type="image/webp"><img src="img/big-images/3.png" alt="Image"></picture>
+                <img src="img/big-images/3.png" alt="Image">
               </div>
             </div>
           </div>
@@ -137,11 +137,11 @@
         <section class="page__pledge pledg">
           <div class="pledg__container _container">
             <div class="pledg__image _ibg">
-              <picture><source srcset="img/big-images/4.webp" type="image/webp"><img src="img/big-images/4.png" alt="Image"></picture>
+              <img src="img/big-images/4.png" alt="Image">
             </div>
             <div class="pledg__content">
               <div class="pledg__content">
-                <h2 class="pledg__title title">
+                <h2 class="pledg__title title" href="#">
                   Проведём интервью и подготовим проект к разработке
                 </h2>
                 <div class="pledg__text text">
@@ -163,7 +163,7 @@
               <div class="slider-projects__body _swiper">
                 <a data-proj="0" class="slider-projects__slide" href="projects.html">
                   <div class="slider-projects__image _ibg">
-                    <picture><source srcset="img/products/1.webp" type="image/webp"><img src="img/products/1.png" alt="Progect"></picture>
+                    <img src="img/products/1.png" alt="Progect">
                   </div>
                   <div class="slider-projects__slide-content">
                     <h4 class="slider-projects__title">Cabify</h4>
@@ -178,7 +178,7 @@
                 </a>
                 <a data-proj="1" class="slider-projects__slide" href="projects.html">
                   <div class="slider-projects__image _ibg">
-                    <picture><source srcset="img/products/2.webp" type="image/webp"><img src="img/products/2.png" alt="Progect"></picture>
+                    <img src="img/products/2.png" alt="Progect">
                   </div>
                   <div class="slider-projects__slide-content">
                     <h4 class="slider-projects__title">Ural Airlines</h4>
@@ -193,7 +193,7 @@
                 </a>
                 <a data-proj="2" class="slider-projects__slide" href="projects.html">
                   <div class="slider-projects__image _ibg">
-                    <picture><source srcset="img/products/3.webp" type="image/webp"><img src="img/products/3.png" alt="Progect"></picture>
+                    <img src="img/products/3.png" alt="Progect">
                   </div>
                   <div class="slider-projects__slide-content">
                     <h4 class="slider-projects__title">OpenGift</h4>
@@ -208,7 +208,7 @@
                 </a>
                 <a data-proj="3" class="slider-projects__slide" href="projects.html">
                   <div class="slider-projects__image _ibg">
-                    <picture><source srcset="img/products/4.webp" type="image/webp"><img src="img/products/4.png" alt="Progect"></picture>
+                    <img src="img/products/4.png" alt="Progect">
                   </div>
                   <div class="slider-projects__slide-content">
                     <h4 class="slider-projects__title">PlanDi</h4>
@@ -222,7 +222,7 @@
                 </a>
                 <a data-proj="4" class="slider-projects__slide" href="projects.html">
                   <div class="slider-projects__image _ibg">
-                    <picture><source srcset="img/products/5.webp" type="image/webp"><img src="img/products/5.png" alt="Progect"></picture>
+                    <img src="img/products/5.png" alt="Progect">
                   </div>
                   <div class="slider-projects__slide-content">
                     <h4 class="slider-projects__title">Коалиция</h4>
@@ -237,7 +237,7 @@
                 </a>
                 <a data-proj="5" class="slider-projects__slide" href="projects.html">
                   <div class="slider-projects__image _ibg">
-                    <picture><source srcset="img/products/6.webp" type="image/webp"><img src="img/products/6.png" alt="Progect"></picture>
+                    <img src="img/products/6.png" alt="Progect">
                   </div>
                   <div class="slider-projects__slide-content">
                     <h4 class="slider-projects__title">Rubetek</h4>
@@ -275,40 +275,40 @@
                 <div class="slider-developments__slide">
                   <div class="slider-developments__content">
                     <div class="slider-developments__date date">09 Августа 2021</div>
-                    <h2 class="slider-developments__title title">
+                    <a class="slider-developments__title title" href="blog.html">
                       Lorem ipsum dolor sit amet,
                       consectetur adipiscing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore magna aliqua
-                    </h2>
+                    </a>
                   </div>
                   <div data-swiper-parallax-opacity="0" data-swiper-parallax-x="100%" class="slider-developments__img _ibg">
-                    <picture><source srcset="img/big-images/2.webp" type="image/webp"><img src="img/big-images/2.png" alt="Image"></picture>
+                    <img src="img/big-images/2.png" alt="Image">
                   </div>
                 </div>
                 <div class="slider-developments__slide">
                   <div class="slider-developments__content">
                     <div class="slider-developments__date">09 Августа 2021</div>
-                    <h2 class="slider-developments__title title">
+                    <a class="slider-developments__title title" href="blog.html">
                       Lorem ipsum dolor sit amet,
                       consectetur adipiscing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore magna aliqua
-                    </h2>
+                    </a>
                   </div>
                   <div data-swiper-parallax-opacity="0" data-swiper-parallax-x="100%" class="slider-developments__img _ibg">
-                    <picture><source srcset="img/big-images/2.webp" type="image/webp"><img src="img/big-images/2.png" alt="Image"></picture>
+                    <img src="img/big-images/2.png" alt="Image">
                   </div>
                 </div>
                 <div class="slider-developments__slide">
                   <div class="slider-developments__content">
                     <div class="slider-developments__date">09 Августа 2021</div>
-                    <h2 class="slider-developments__title title">
+                    <a class="slider-developments__title title" href="blog.html">
                       Lorem ipsum dolor sit amet,
                       consectetur adipiscing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore magna aliqua
-                    </h2>
+                    </a>
                   </div>
                   <div data-swiper-parallax-opacity="0" data-swiper-parallax-x="100%" class="slider-developments__img _ibg">
-                    <picture><source srcset="img/big-images/2.webp" type="image/webp"><img src="img/big-images/2.png" alt="Image"></picture>
+                    <img src="img/big-images/2.png" alt="Image">
                   </div>
                 </div>
               </div>
@@ -412,7 +412,7 @@
         <section class="page__request request">
           <div class="request__container _container">
             <div class="request__img _ibg">
-              <picture><source srcset="img/big-images/1.webp" type="image/webp"><img src="img/big-images/1.png" alt="Image"></picture>
+              <img src="img/big-images/1.png" alt="Image">
             </div>
             <button data-popup class="request__button button" type="button">ОСТАВИТЬ ЗАЯВКУ</button>
           </div>
@@ -421,14 +421,14 @@
       <footer class="footer">
   <div class="footer__cotnainer">
     <div class="footer__body">
-      <a href="#" class="footer__logo logo">
+      <a href="index.html" class="footer__logo logo">
         <img src="img/logotypes/main-logo.svg" alt="Logo">
       </a>
       <div class="footer__actions">
         <div class="footer__contacts contacts-footer">
-          <a href="#" class="contacts-footer__link">Мобильные приложения</a>
-          <a href="#" class="contacts-footer__link">Главная страница</a>
-          <a href="#" class="contacts-footer__link contacts-footer__link_active">Связаться с нами</a>
+          <a href="projects.html" class="contacts-footer__link">Мобильные приложения</a>
+          <a href="index.html" class="contacts-footer__link">Главная страница</a>
+          <button data-popup class="contacts-footer__link contacts-footer__link_active">Связаться с нами</button>
           <a data-da=".footer__socials,767.98,first" class="contacts-footer__link contacts-footer__link_phone _icon-phone" href="tel:+78003017927">+7 800 301-79-27</a>
         </div>
         <div class="footer__socials">
@@ -469,21 +469,21 @@
 		<form action="#" class="form">
 			<div class="form__item">
 				<label for="" class="form__label">Имя</label>
-				<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+				<input autocomplete="off" type="text" name="your-name" data-error="Ошибка" placeholder="" class="form__input">
 			</div>
 			<div class="form__item">
 				<label for="" class="form__label">Номер телефона</label>
-				<input data-req autocomplete="off" type="tel" name="form[]" data-error="Введите номер телефона" placeholder="" class="form__input _phone">
+				<input data-req autocomplete="off" type="tel" name="phone" data-error="Введите номер телефона" placeholder="" class="form__input _phone">
 			</div>
 			<div class="form__item">
 				<label for="" class="form__label">E-mail</label>
-				<input data-req autocomplete="off" type="text" name="form[]" data-error="Введите E-mail" placeholder="" class="form__input _email">
+				<input data-req autocomplete="off" type="text" name="email" data-error="Введите E-mail" placeholder="" class="form__input _email">
 			</div>
 			<button class="form__button button" type="submit">Отправить</button>
 		</form>
 	</div>
 </div>
-    <script src="js/app.min.js?_v=20220911154018"></script>
+    <script src="js/app.min.js"></script>
   </body>
 </html>
 

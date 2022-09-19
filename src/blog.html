@@ -196,7 +196,7 @@
             </div>
             <div class="distribution__form">
               <form action="#" class="distribution__form-form form-distribution">
-                <input data-req autocomplete="off" type="text" name="form[]" data-error="Введите E-mail" placeholder="Введити вашу почту" class="form-distribution__input _email">
+                <input data-req autocomplete="off" type="text" name="email" data-error="Введите E-mail" placeholder="Введити вашу почту" class="form-distribution__input _email">
                 <button class="form-distribution__btn button" type="submit">ПОДПИСАТЬСЯ</button>
               </form>
             </div>
@@ -306,6 +306,7 @@
       </main>
       @@include('html/footer.html',{})
     </div>
+    @@include('html/popup.html',{})
     <script src="js/app.min.js"></script>
   </body>
 </html>

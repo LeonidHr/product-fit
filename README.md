@@ -42,3 +42,12 @@ __Using__
 * Second example: on a screen extension of 992px, the button is moved to the start of the block
 
 src - source files. gulp - gulp config files. dist - ready files for perview. dist branch - project perview.
+
+## \#Sending emails
+
+__In order for sending letters to mail to work, you need to add the [PHPMailer pragin](https://github.com/PHPMailer/PHPMailer) to the root of the project__
+
+
+
+
+

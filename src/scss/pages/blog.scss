@@ -534,7 +534,7 @@
   &__arrows {
     top: 20px;
     right: 10px;
-    left: auto;
+    left: auto !important;
     max-width: rem(173);
 
     @media (max-width:$mobileSmall){

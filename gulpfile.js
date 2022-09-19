@@ -24,6 +24,7 @@ import { otfToTtf, ttfToWoff, fonstStyle } from "./gulp/tasks/fonts.js";
 import { zip } from "./gulp/tasks/zip.js";
 import { ftp } from "./gulp/tasks/ftp.js";
 import { json } from "./gulp/tasks/json.js";
+import { php } from "./gulp/tasks/php.js";
 
 //Наблюдатель за изменениями
 function watcher() {
@@ -33,13 +34,14 @@ function watcher() {
   gulp.watch(path.watch.js, js);
   gulp.watch(path.watch.images, images);
   gulp.watch(path.watch.json, json);
+  gulp.watch(path.watch.php, php);
 }
 
 //Последовательная обработка шрифтов
 const fonts = gulp.series(otfToTtf, ttfToWoff, fonstStyle);
 
 //Основные задачи 
-const mainTasks = gulp.series(fonts, gulp.parallel(copy, html, scss, js, json, images));
+const mainTasks = gulp.series(fonts, gulp.parallel(copy, html, php, scss, js, json, images));
 
 //Сценарий выполнения задач
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));

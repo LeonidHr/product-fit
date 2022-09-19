@@ -15,6 +15,7 @@ export const path = {
     fonts: `${buildFolder}/fonts/`,
     files: `${buildFolder}/files/`,
     json: `${buildFolder}/json/`,
+    php: `${buildFolder}/`,
   },
   src: {
     js: `${srcFolder}/js/app.js`,
@@ -23,7 +24,8 @@ export const path = {
     scss: `${srcFolder}/scss/style.scss`,
     html: `${srcFolder}/*.html`,
     files: `${srcFolder}/files/**/*.*`,
-    json: `${srcFolder}/json/*.*`
+    json: `${srcFolder}/json/*.*`,
+    php: `${srcFolder}/*.php`,
   },
   watch: {
     js: `${srcFolder}/js/**/*.js`,
@@ -31,7 +33,8 @@ export const path = {
     html: `${srcFolder}/**/*.html`,
     images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,ico,svg,webp}`,
     files: `${srcFolder}/files/**/*.*`,
-    json: `${srcFolder}/json/*.*`
+    json: `${srcFolder}/json/*.*`,
+    php: `${srcFolder}/*.php`,
   },
   clean: buildFolder,
   buildFolder: buildFolder,

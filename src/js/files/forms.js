@@ -30,17 +30,6 @@ export function formInit() {
 			e.preventDefault();
 			
 			let error = formValidate(form);
-			// let totalErr = 0;
-
-			// if (typeof errors === 'object') {
-			// 	errors.reduce((total, item) => {
-			// 		totalErr += total + item;
-			// 	});	
-			// } else {
-			// 	totalErr = errors;
-			// }
-
-			// console.log(totalErr);
 
 			if (error === 0) {
 				form.insertAdjacentHTML("beforeend", `<img class="form-loading" src="${messages.loading}" alt="Loading">`);
@@ -49,7 +38,7 @@ export function formInit() {
 				const formData = new FormData(form);
 				const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-				postData('server.php', json)
+				postData('sendmail.php', json)
         .then(data => {
 					formLoading.remove();
 					form.innerHTML(`<div class="form-message form__sucsess">${messages.succses}</div>`);
