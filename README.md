@@ -10,14 +10,25 @@ __After__
 ```
 npm run dev
 ```
-__After end__
+__For build project__
 ```
 npm run build
 ```
 ## \#Demo
-[ReadyOn demo](https://leonidhr.github.io/product-fit/)
+[https://leonidhr.github.io/product-fit/](https://leonidhr.github.io/product-fit/)
+
+## \#Features
+* Swiper with customn pagination on mobile
+* Sending an email using PHPMailer
+
+<img src="./src/img/preview.gif" width="726">
 
 ## \#Libraries
+
+## \#Sending emails
+
+__In order for sending letters to mail to work, you need to add the [PHPMailer pragin](https://github.com/PHPMailer/PHPMailer) to the root of the project__
+
 [Swiper](https://swiperjs.com)
 
 ```js
@@ -42,12 +53,3 @@ __Using__
 * Second example: on a screen extension of 992px, the button is moved to the start of the block
 
 src - source files. gulp - gulp config files. dist - ready files for perview. dist branch - project perview.
-
-## \#Sending emails
-
-__In order for sending letters to mail to work, you need to add the [PHPMailer pragin](https://github.com/PHPMailer/PHPMailer) to the root of the project__
-
-
-
-
-
